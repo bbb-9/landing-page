@@ -1,0 +1,233 @@
+*{
+    max-width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: bisque;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+    flex-shrink: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-links, a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e71809c7;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}
+
+.header-links > ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.section-1{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    width: 50%;
+    font-size: 1.2rem;
+    max-width: 1000px;
+}
+
+.hero-img{
+    width: 40%;
+    max-width: 60%;
+    padding: 1.5rem;
+}
+
+.hero-text> button{
+    align-self: center;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 7rem;
+    height: 2rem;
+    max-width: 13rem;
+    border: none;
+    outline: 1px solid red;
+    transition-duration: 0.4s;
+    font-size: 1.1rem;
+    font-family: monospace;
+}
+
+.hero-text> button:hover{
+    background-color: white;
+    color: red;
+}
+
+.hero{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content>img{
+    height: 100px;
+    width: 100px;
+}
+
+.hero-text > h1{
+    text-align: center;
+}
+
+.agents{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-2 {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.img-content{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.content > img{
+    height: 14rem;
+    width: auto;
+    border: 1px solid red;
+}
+
+.content > div{
+    height: 14rem;
+    width: 14rem;
+}
+
+.content{
+    gap: 5rem;
+}
+
+.img{
+    border: 2px solid red;
+    box-shadow: 4px 4px;
+}
+
+.img > img {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: bisque;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 2rem;
+    padding: rem;
+    color: rgb(138, 0, 0);
+}
+
+.person{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.section-4{
+    margin: 4rem 7rem 4rem 7rem;
+}
+
+.box{
+    display: flex;
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+
+.msg{
+    flex: 2;
+}
+
+.msg{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 0.2rem;
+}
+
+.msg > h4{
+    font-weight: bold;
+}
+
+.msg > p{
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+}
+
+.btn{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+} 
+
+.last-btn{
+    height: 3rem;
+    width: 10rem;
+    color: blue;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    outline: 1px solid white;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.last-btn:hover{
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
